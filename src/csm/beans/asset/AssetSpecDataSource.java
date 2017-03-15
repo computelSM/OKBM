@@ -21,11 +21,7 @@ public class AssetSpecDataSource extends DataBean {
 
         custLogger.debug("AssetSpecDataSource.initialize 1:");
 
-
-//        MXLogger custLogger = MXLoggerFactory.getLogger("maximo.custClass01");
-
         super.initialize();
         this.getMboSet().setUserWhere("section='1'");
-        custLogger.debug("AssetSpecDataSource.initialize 2");
     }
 }

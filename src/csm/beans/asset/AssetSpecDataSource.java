@@ -18,6 +18,7 @@ public class AssetSpecDataSource extends DataBean {
 
     @Override
     protected void initialize() throws MXException, RemoteException {
+        custLogger.debug("AssetSpecDataSource.initialize 1:");
         super.initialize();
         this.getMboSet().setUserWhere("section='1'");
     }
